@@ -23,18 +23,18 @@ python 2.6.py
 When you run it you'll be faced with starting window that explains  basic commands like *Draw, Clear, Start path...*
 Press **H** to hide it and enter drawing mode.
 
-![start](images/start.png)
+<img src="images/start.png" width="400" height="400">
 
 Use left mouse click to define the edges of the polygon, and the right click to automatically finish the polygon.
 
-![start](images/drawing.png)
+<img src="images/drawing.png" width="400" height="400">
 
 Once you've finished your polygons switch to *Path* mode by pressing **S**
 Use the left click to define the start and right click to define the end. Once you've done both the red line representing the path will show up.
 
 You can also drag the mouse while holding the right click to see the path change. 
 
-![start](images/path1.png)
+<img src="images/path1.png" width="400" height="400">
 
 
 
