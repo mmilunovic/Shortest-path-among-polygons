@@ -102,3 +102,5 @@ webencodings==0.5.1
 Werkzeug==0.15.4
 widgetsnbextension==3.4.2
 wrapt==1.11.1
+tqdm==4.36.1
+pygame==1.9.6
