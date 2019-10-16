@@ -60,12 +60,12 @@ def help_screen():
         pygame.draw.rect(gameDisplay, black, (startx, starty, rectw, recth))
         pygame.draw.rect(gameDisplay, white, (startxi, startyi, rectwi, recthi))
 
-        draw_text("-- 2.6 Najkraća putanja između poligona --", black, 30, startxi+90, startyi+10)
+        draw_text("-- 2.6 Shortest path among polygons --", black, 30, startxi+90, startyi+10)
         draw_text("Q - QUIT", black, 25, startxi+10, startyi+100)
-        draw_text("H - Isključi help", black, 25, startxi+10, startyi+150)
-        draw_text("D - Crtanje poligona", black, 25, startxi+10, startyi+200)
-        draw_text("C - Clear sve poligone", black, 25, startxi+10, startyi+250)
-        draw_text("S - Postavi početak i kraj", black, 25, startxi+10, startyi+300)
+        draw_text("H - Toggle Help", black, 25, startxi+10, startyi+150)
+        draw_text("D - Draw polygons", black, 25, startxi+10, startyi+200)
+        draw_text("C - Clear polygons", black, 25, startxi+10, startyi+250)
+        draw_text("S - Mark start and finish", black, 25, startxi+10, startyi+300)
         pygame.display.update()
         clock.tick(10)
 
@@ -160,11 +160,11 @@ def game_loop():
             draw_polygon(sim.shortest_path, red, 3, complete=False)
 
         if sim.mode_draw:
-            draw_text("-- Crtanje --", black, 25, 5, 5)
+            draw_text("-- Drawing --", black, 25, 5, 5)
         elif sim.mode_path:
-            draw_text("-- Putanja --", black, 25, 5, 5)
+            draw_text("-- Path --", black, 25, 5, 5)
         else:
-            draw_text("-- Pomoć --", black, 25, 5, 5)
+            draw_text("-- Help --", black, 25, 5, 5)
 
         pygame.display.update()
         clock.tick(20)
