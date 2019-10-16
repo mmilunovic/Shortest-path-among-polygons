@@ -4,4 +4,6 @@ Solution for Geometric Algorithms course project from Faculty of Computer Scienc
 Write a program that, that, given a set of disjoint polygons, a start point p, and an endpoint q, computes the shortest path between p and q  that does not enter into the interior of any polygon. 
 
 **Upper bounds: O(n^2log n) time, where n is the total number of edges in the obstacles.**
+
+
 ![statement](images/statement.png)
