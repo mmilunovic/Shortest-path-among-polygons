@@ -7,3 +7,34 @@ Write a program that, that, given a set of disjoint polygons, a start point p, a
 
 
 ![statement](images/statement.png)
+
+## Getting started
+
+Since this project uses a lot of libraries I recommend using *requirements.txt*. 
+Run the following commands to clone the repo, install all the requirements and run the example. 
+
+``` bash
+git clone https://github.com/mmilunovic/Shortest-path-among-polygons.git
+cd Shortest-path-among-polygons
+pip install -r requirements.txt
+python 2.6.py
+```
+
+When you run it you'll be faced with starting window that explains  basic commands like *Draw, Clear, Start path...*
+Press **H** to hide it and enter drawing mode.
+
+![start](images/start.png)
+
+Use left mouse click to define the edges of the polygon, and the right click to automatically finish the polygon.
+
+![start](images/drawing.png)
+
+Once you've finished your polygons switch to *Path* mode by pressing **S**
+Use the left click to define the start and right click to define the end. Once you've done both the red line representing the path will show up.
+
+You can also drag the mouse while holding the right click to see the path change. 
+
+![start](images/path1.png)
+
+
+
