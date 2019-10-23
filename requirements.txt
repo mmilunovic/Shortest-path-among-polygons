@@ -20,7 +20,7 @@ gitdb2==2.0.5
 GitPython==2.1.11
 grpcio==1.21.1
 h5py==2.9.0
-httpie==1.0.2
+httpie==1.0.3
 idna==2.8
 ipykernel==5.1.1
 ipython==7.5.0
